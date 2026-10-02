@@ -8,7 +8,7 @@
 | Kanban | [Report](jira/Kanban_Evidence_Report.pdf) | Six captures: initial board, requirements, epic hierarchy, work breakdown, and FR-001 details |
 | Scrum | [Report](jira/Scrum_Evidence_Report.pdf) | Seven captures: sprint configuration, backlog, hierarchy, active board, scope-change report, and burndown |
 | Bug Tracker | [Report](jira/Bug_Tracker_Evidence_Report.pdf) | Two captures: four-defect backlog and BB-1 detail |
-| GitHub creation/history | [Status](github/README.md) | Pending: no original GitHub screenshots were supplied |
+| GitHub repository/history | [Screenshots and capture details](github/README.md) | Live repository page and main-branch commit history |
 
 [All 15 original screenshots and their source page numbers](jira/README.md) are available as PNGs. The screenshots were extracted at original dimensions, without changing the Jira content. The student's supplied PDF reports are preserved in [source_reports](jira/source_reports/). Their cover/header SRN placeholders are corrected in the newly generated reports linked above.
 

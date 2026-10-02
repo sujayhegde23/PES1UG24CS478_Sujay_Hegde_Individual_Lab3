@@ -1,0 +1,10 @@
+{
+  "name": "bps47-monitoring-core-starter",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test monitoring_core.test.mjs",
+    "demo": "node demo.mjs"
+  },
+  "engines": { "node": ">=20" }
+}
