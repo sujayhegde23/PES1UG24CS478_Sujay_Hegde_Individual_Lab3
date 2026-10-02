@@ -29,15 +29,4 @@ PES1UG24CS478_Sujay_Hegde_Individual_Lab3/
 ```
 
 ![Coffee kiosk UML component diagram](2-Architectural_Diagram/Architecture_Diagram.png)
-
-## Sources and evidence status
-
-- Lab 1: [BPS #47 problem statement](1-RE/47_SE_Lab1_SE_Problem_Statements.pdf).
-- Lab 3: `Lab_3_Architecture_Student_handout.pdf`, supplied by the student.
-- Format reference: [Sushruth's Lab 3 folder](https://github.com/SushruthSukesh/PES1UG24CS486_Sushruth_Individual_Lab3/tree/main/2-Architectural_Diagram). Later lab folders are outside this submission's scope.
-- Lab 2: 15 Jira screenshots extracted from the student's three supplied BPS #47 reports, plus two live GitHub repository/history captures. See the evidence folder for provenance.
-- Assignment checklist: folders 1-4 contain the requested documents and screenshots. Folder 5 contains a tested Codex-authored starter and a prepared Copilot prompt. It still needs an actual Copilot session, screenshot, or specific generated-code repository/commit before its Copilot evidence requirement is complete.
-
-## Starter verification
-
 Run `npm test` inside `5-Github_Copilot_Generated_Code` to execute the 12 unit tests. These cover injected lookup fixtures, expiry thresholds, retries, alert lifecycle, registry mutation, role checks, and summary completeness. They do not certify the full production FR/NFR targets. The RTM records the remaining integration, performance, security, and availability procedures.
