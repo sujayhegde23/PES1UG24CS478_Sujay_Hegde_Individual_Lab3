@@ -8,6 +8,7 @@ An IT operations utility performs daily WHOIS and SSL/TLS expiry checks and warn
 | Deliverable | File |
 | --- | --- |
 | Exactly five FRs and two NFRs | [Requirements table](Requirements.md) |
+| Requirements traceability matrix | [RTM table](RTM_Table.md), [PDF](RTM_Table.pdf) |
 | UML use-case diagram with include and extend | [Diagram and PlantUML source](UseCaseDiagram.md), [PNG](Use_Case_Diagram.png) |
 | One-page core use-case flow, including one alternate | [Markdown](UseCaseSpecification.md), [PDF](UseCaseSpecification.pdf) |
 | Assigned scenario | [Problem statement PDF](47_SE_Lab1_SE_Problem_Statements.pdf) |
