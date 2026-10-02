@@ -1,43 +1,17 @@
 # Lab 1: Requirements Engineering & UML Use-Case Modelling
 
-**Institution:** PES University — Department of Computer Science & Engineering  
-**Course Title:** Requirements Engineering & Object-Oriented Software Design Lab  
-**Problem Statement #47:** Domain & SSL Certificate Expiry Alert System  
-**Domain:** Developer Tools & IT Operations  
+**Sujay Hegde | PES1UG24CS478 | PES University**
+**BPS #47:** Domain & SSL Certificate Expiry Alert System
 
-### Student Details
-- **Student Name:** Sujay Hegde
-- **SRN:** PES1UG24CS478
-- **Section:** 5-H
-- **GitHub:** [sujayhegde23](https://github.com/sujayhegde23)
-- **Repository:** [LAB-1_Activity](https://github.com/sujayhegde23/LAB-1_Activity)
+An IT operations utility performs daily WHOIS and SSL/TLS expiry checks and warns SysAdmins before assets expire. Security Officers receive escalations for unacknowledged high-priority alerts.
 
----
+| Deliverable | File |
+| --- | --- |
+| Exactly five FRs and two NFRs | [Requirements table](Requirements.md) |
+| UML use-case diagram with include and extend | [Diagram and PlantUML source](UseCaseDiagram.md), [PNG](Use_Case_Diagram.png) |
+| One-page core use-case flow, including one alternate | [Markdown](UseCaseSpecification.md), [PDF](UseCaseSpecification.pdf) |
+| Assigned scenario | [Problem statement PDF](47_SE_Lab1_SE_Problem_Statements.pdf) |
 
-## 📖 1. Problem Context & Overview
+![Use-case diagram](Use_Case_Diagram.png)
 
-An IT operations utility that performs automated daily WHOIS registration and SSL/TLS handshake audits, alerting sysadmins through escalation ladders before domain or certificate expiration.
-
-### Target Stakeholders & Actors:
-- **`SysAdmin`**: Primary administrator who configures monitored domains and acknowledges impending expiry alerts.
-- **`Security Officer`**: Secondary actor who receives escalated alerts if a SysAdmin fails to take action in time.
-
----
-
-## 📋 2. Deliverables
-
-The lab deliverables are separated into clean, easy-to-read markdown files.
-
-1. **[Requirements Table](Requirements.md)**
-   - Contains 5 Functional Requirements (FR) covering scanning, alerts, and escalation.
-   - Contains 2 Non-Functional Requirements (NFR) covering performance and reliability.
-2. **[UML Use-Case Diagram](UseCaseDiagram.md)**
-   - PlantUML source code mapping all actors and relationships (`<<include>>`, `<<extend>>`).
-3. **[Use-Case Flow Specification](UseCaseSpecification.md)**
-   - A detailed 1-page spec for **UC-005: Acknowledge Expiry Alert**.
-
----
-
-## 📊 3. UML Use-Case Diagram
-
-![UML Use Case Diagram](Use_Case_Diagram.png)
+The external scheduler starts daily scans and checks escalation deadlines. Expiry alert handling conditionally extends the scan, and escalation conditionally extends the active alert lifecycle. Authentication is included in protected user operations.

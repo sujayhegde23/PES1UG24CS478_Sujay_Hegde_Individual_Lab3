@@ -1,6 +1,3 @@
-# Kanban Board Evidence
+# Kanban evidence
 
-(Simulated screenshot representation from PDF)
-- Space: Kanban_BPS#47
-- Epics: SSL/TLS Certificate Monitoring, Domain Registration Monitoring
-- Stories: FR-001 (5pts), FR-002 (5pts), etc.
+See [the corrected report](Kanban_Evidence_Report.pdf) and [the six original captures with provenance](README.md). These show the initial board, seven requirements, six epics, expanded work-item hierarchy, and FR-001 details. The captures show setup and work breakdown, not completed implementation.
