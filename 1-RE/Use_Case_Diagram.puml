@@ -1,10 +1,4 @@
-# UML Use-Case Diagram - BPS #47
 
-The timer is an external scheduling actor. Alert handling remains active until acknowledgment or escalation. The escalation extension belongs to this alert lifecycle, rather than to a user acknowledgment operation that may never start.
-
-![Use-case diagram](Use_Case_Diagram.png)
-
-```plantuml
 @startuml
 left to right direction
 actor SysAdmin as SA
@@ -37,6 +31,3 @@ note bottom of UC4
   Acknowledgment closes the pending escalation.
 end note
 @enduml
-```
-
-FR-001/002 map to the daily scan and alert handling; FR-003 to acknowledgment and escalation; FR-004 to domain management; FR-005 to monthly reporting. An expiry alert is conditional, so it extends the scan instead of being unconditionally included in every scan.

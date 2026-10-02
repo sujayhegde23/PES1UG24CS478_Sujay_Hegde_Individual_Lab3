@@ -1,8 +1,3 @@
-# Bug Tracker Evidence
+# Bug Tracker evidence
 
-(Simulated screenshot representation from PDF)
-- Space: BugTracker_BPS#47
-- Defect BB-1: SSL expiry alert not triggered at 15 days
-- Defect BB-2: WHOIS lookup fails without retry after rate limit
-- Defect BB-3: Security Officer escalation not sent after 48 hours
-- Defect BB-4: Removed domain still appears in daily monitoring scan
+See [the corrected report](Bug_Tracker_Evidence_Report.pdf) and [the two original captures with provenance](README.md). Four defects BB-1 through BB-4 are visible with Medium priority and To Do status. BB-1 details record the missing SSL expiry alert at 15 days. No fixed-defect or test-pass evidence is shown.

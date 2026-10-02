@@ -1,31 +1,29 @@
-# Lab 2: Jira Project & GitHub Setup Screenshots
+# Lab 2: GitHub and Jira Evidence
 
-**Course:** Software Engineering Lab (UE24CS252AA) — Lab 2
-**Assigned System:** Domain & SSL Certificate Expiry Alert System
-**Student:** Sujay Hegde | **SRN:** PES1UG24CS478
+**Sujay Hegde | PES1UG24CS478 | BPS #47**
+**System:** Domain & SSL Certificate Expiry Alert System
 
----
+| Evidence | Corrected report | Original screenshots |
+| --- | --- | --- |
+| Kanban | [Report](jira/Kanban_Evidence_Report.pdf) | Six captures: initial board, requirements, epic hierarchy, work breakdown, and FR-001 details |
+| Scrum | [Report](jira/Scrum_Evidence_Report.pdf) | Seven captures: sprint configuration, backlog, hierarchy, active board, scope-change report, and burndown |
+| Bug Tracker | [Report](jira/Bug_Tracker_Evidence_Report.pdf) | Two captures: four-defect backlog and BB-1 detail |
+| GitHub creation/history | [Status](github/README.md) | Pending: no original GitHub screenshots were supplied |
 
-## 📌 Deliverable Artifacts Index
+[All 15 original screenshots and their source page numbers](jira/README.md) are available as PNGs. The screenshots were extracted at original dimensions, without changing the Jira content. The student's supplied PDF reports are preserved in [source_reports](jira/source_reports/). Their cover/header SRN placeholders are corrected in the newly generated reports linked above.
 
-| Deliverable Item | Description |
-| :--- | :--- |
-| **github/** | Contains evidence of repository creation and semantic commit history. |
-| **jira/** | Contains screenshots of the Kanban board, Scrum sprint board, and Bug Tracker. |
+## What the evidence establishes
 
----
+Kanban captures show seven requirements and six scenario epics, with implementation work items in an expanded hierarchy. Scrum captures show sprint setup and reporting; visible sprint work is in To Do. The source report describes 26 planned story points, but the captures do not establish a completed sprint. Bug Tracker shows four Medium-priority defects in To Do and the SSL 15-day alert issue details.
 
-## 📸 Jira Screenshots Overview
+These screenshots document a lab simulation; they do not demonstrate that the monitoring application was implemented or tested.
 
-### 1. Kanban Board (Kanban_BPS#47)
-- Showcases the setup of the Epic and Requirement Associations.
-- Includes the 5 Functional Requirements (FR-001 to FR-005) and 2 Non-Functional Requirements (NFR-001 to NFR-002) mapped as user stories.
-- Displays Subtask Breakdown for implementation.
+## Regenerate the corrected reports
 
-### 2. Scrum Project (Scrum_BPS#47)
-- Features the Sprint Backlog containing 26 story points for the initial sprint.
-- Demonstrates the Sprint Burndown Chart for tracking.
+After installing the dependencies in `../2-Architectural_Diagram`, run:
 
-### 3. Bug Tracker (BugTracker_BPS#47)
-- Tracks 4 reported defects (BB-1 to BB-4) related to the Expiry Alert System.
-- Detailed inspection view of BB-1 (SSL expiry alert not triggered at 15 days).
+```powershell
+node generate_evidence_reports.mjs
+```
+
+The generator reads `jira/Evidence_Provenance.json` and the existing PNGs. It also exports the Lab 1 one-page use-case specification.

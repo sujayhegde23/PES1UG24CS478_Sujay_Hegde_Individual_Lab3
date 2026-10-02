@@ -1,6 +1,3 @@
-# Scrum Sprint Evidence
+# Scrum evidence
 
-(Simulated screenshot representation from PDF)
-- Space: Scrum_BPS#47
-- Active Sprint: 26 Story Points committed
-- Burndown Chart tracked across 1-week timebox.
+See [the corrected report](Scrum_Evidence_Report.pdf) and [the seven original captures with provenance](README.md). The source report describes 26 planned story points for a one-week sprint. The active board shows work in To Do; the burndown and scope-change views are reporting evidence, not proof that the sprint finished.

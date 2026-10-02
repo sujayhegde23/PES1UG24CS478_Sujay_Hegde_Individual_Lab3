@@ -1,50 +1,34 @@
-# Domain & SSL Certificate Expiry Alert System — Individual Project Assignment
+# Software Engineering Labs - Sujay Hegde
 
-**Course:** Software Engineering Lab (UE24CS252AA) — Individual Project Deliverables  
-**Problem Statement #47:** Domain & SSL Certificate Expiry Alert System  
-**Domain:** Developer Tools & IT Operations  
+**SRN:** PES1UG24CS478
+**Institution:** PES University, Department of Computer Science & Engineering
 
----
+| Lab | Scenario | Deliverables |
+| --- | --- | --- |
+| 1 - Requirements Engineering | BPS #47: Domain & SSL Certificate Expiry Alert System | [Requirements](1-RE/Requirements.md), [use-case diagram](1-RE/UseCaseDiagram.md), [one-page flow specification](1-RE/UseCaseSpecification.pdf) |
+| 2 - Jira Project Setup | BPS #47: Domain & SSL Certificate Expiry Alert System | [Original Jira screenshots and evidence reports](3-Project_Creational_Screenshots/README.md) |
+| 3 - Component Modelling | Self-Service Coffee Kiosk System | [Component diagram, editable source, and one-page justification](2-Architectural_Diagram/README.md) |
 
-## 👨‍💻 Student Details
+The Lab 3 handout describes the coffee kiosk scenario and gives Order Manager and Payment Service as starting components. The reference repository uses that scenario too. Accordingly, Lab 3 uses the coffee kiosk while Labs 1 and 2 retain BPS #47.
 
-| Attribute | Details |
-| :--- | :--- |
-| **Student Name** | **Sujay Hegde** |
-| **SRN** | **PES1UG24CS478** |
-| **Department / Institution** | Department of Computer Science & Engineering, PES University |
-| **Individual Lab 3 Repository** | [PES1UG24CS478_Sujay_Hegde_Individual_Lab3](https://github.com/sujayhegde23/PES1UG24CS478_Sujay_Hegde_Individual_Lab3) |
-| **Upstream Lab 1 Repository** | [LAB-1_Activity](https://github.com/sujayhegde23/LAB-1_Activity) |
-| **Jira Agile Workspaces** | Kanban_BPS#47, Scrum_BPS#47, BugTracker_BPS#47 |
-
----
-
-## 📖 About the Project
-
-The **Domain & SSL Certificate Expiry Alert System** is an IT operations utility that performs automated daily WHOIS registration and SSL/TLS handshake audits, alerting sysadmins through escalation ladders before domain or certificate expiration.
-
-- **SSL/TLS Audits:** Initiates TLS handshakes against monitored domains daily to extract expiration dates.
-- **Domain Registration Tracking:** Performs WHOIS lookups to extract domain registration expiry dates.
-- **Alert Escalation:** Triggers alerts at 30, 15, and 3 days before expiry, escalating to Security Officers if unacknowledged.
-- **Dashboard Management:** Secure portal for SysAdmins to add, modify, or remove domains.
-
----
-
-## 📂 Repository Structure
-
-\\	ext
+```text
 PES1UG24CS478_Sujay_Hegde_Individual_Lab3/
-├── README.md                                    # Master individual project documentation
-├── 1-RE/                                        # a) 1-Folder for Requirements Engineering (Lab 1)
-├── 2-Architectural_Diagram/                     # b) 2-Folder for Architectural Diagram (Lab 3)
-└── 3-Project_Creational_Screenshots/            # c) 3-Folder for GitHub & Jira Screenshots (Lab 2)
-\
----
+├── 1-RE/
+├── 2-Architectural_Diagram/
+│   ├── Architecture_Diagram.drawio
+│   ├── Architecture_Diagram.svg / .png / .pdf
+│   ├── Architecture_Justification_Document.docx / .pdf
+│   └── Architecture_Specification.md / .pdf
+└── 3-Project_Creational_Screenshots/
+    ├── github/
+    └── jira/
+```
 
-## 📑 Deliverable Map & Summary Table
+![Coffee kiosk UML component diagram](2-Architectural_Diagram/Architecture_Diagram.png)
 
-| Folder | Teacher Deliverable Item | Description & Key Artifacts |
-| :--- | :--- | :--- |
-| **-RE\** | **a) Requirements Engineering** | 5 Functional Requirements (FR-001..005) and 2 Non-Functional Requirements (NFR-001..002) alongside the Use Case Diagram and Specifications. |
-| **-Architectural_Diagram\** | **b) Architectural Diagram & Component Modelling (Lab 3 Handout)** | **Self-Service Coffee Kiosk System** Layered Architecture. Includes official **UML Component Diagram**, **1-Page Written Justification**, 5 components, and 4 ball-and-socket interfaces. |
-| **-Project_Creational_Screenshots\** | **c) GitHub & Jira Screenshots** | Evidence of **Jira workspaces** covering Kanban board, Scrum sprint simulation, burndown chart, and Bug Tracker defect inspections. |
+## Sources and evidence status
+
+- Lab 1: [BPS #47 problem statement](1-RE/47_SE_Lab1_SE_Problem_Statements.pdf).
+- Lab 3: `Lab_3_Architecture_Student_handout.pdf`, supplied by the student.
+- Format reference: [Sushruth's Lab 3 folder](https://github.com/SushruthSukesh/PES1UG24CS486_Sushruth_Individual_Lab3/tree/main/2-Architectural_Diagram). Later lab folders are outside this submission's scope.
+- Lab 2: screenshots extracted from the student's three supplied BPS #47 reports. See the evidence folder for source names and page numbers. GitHub creation screenshots remain pending.
